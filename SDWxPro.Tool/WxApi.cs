@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Web;
 
 namespace SDWxPro.Tool
 {
@@ -32,7 +34,14 @@ namespace SDWxPro.Tool
         
         }
         #endregion
-
+        public static void WriteLog(string tes)
+        {
+            using (FileStream fs = new FileStream(HttpContext.Current.Request.MapPath("~") + "log.txt", FileMode.Append, FileAccess.Write))
+            {
+                var byteStr = System.Text.Encoding.UTF8.GetBytes(tes + "\r\n");
+                fs.Write(byteStr, 0, byteStr.Length);
+            }
+        }
 
         #region 获取Token
         /// <summary>
@@ -41,6 +50,7 @@ namespace SDWxPro.Tool
         public static string GetToken(string appid, string secret)
         {
             string strJson = HttpRequestUtil.RequestUrl(string.Format("https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={0}&secret={1}", appid, secret));
+            WriteLog(strJson);
             return WxTools.GetJsonValue(strJson, "access_token");
         }
         #endregion

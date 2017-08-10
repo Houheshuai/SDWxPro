@@ -54,20 +54,28 @@ namespace SDWxPro.Web
             SysSetting ss = SysSettingService.GetSysSettingById(ssid);
             if (ss != null)
             {
+                WriteLog("oooo");
                 if (string.IsNullOrEmpty(ss.WxTokenKey)) //尚未保存过access_token
                 {
+                    WriteLog(WxAppId);
+                    WriteLog(WxAppSecret);
                     access_token = WxApi.GetToken(WxAppId, WxAppSecret);
+                    WriteLog(access_token);
                 }
                 else
                 {
-                    if (WxApi.TokenExpired(ss.WxTokenKey)) //access_token过期
-                    {
-                        access_token = WxApi.GetToken(WxAppId, WxAppSecret);
-                    }
-                    else
-                    {
-                        access_token = ss.WxTokenKey;
-                    }
+                    //if (WxApi.TokenExpired(ss.WxTokenKey)) //access_token过期
+                    //{
+                    //    access_token = WxApi.GetToken(WxAppId, WxAppSecret);
+                    //}
+                    //else
+                    //{
+                    //    access_token = ss.WxTokenKey;
+                    //}
+                    WriteLog("pppp");
+                    access_token = WxApi.GetToken(WxAppId, WxAppSecret);
+
+                    
                 }
                 ss.WxTokenKey = access_token;
                 SysSettingService.ModifySysSetting(ss);
@@ -75,6 +83,17 @@ namespace SDWxPro.Web
             return access_token;
         }
         #endregion
+
+
+
+        public static void WriteLog(string tes)
+        {
+            using (FileStream fs = new FileStream(HttpContext.Current.Request.MapPath("~") + "log.txt", FileMode.Append, FileAccess.Write))
+            {
+                var byteStr = System.Text.Encoding.UTF8.GetBytes(tes + "\r\n");
+                fs.Write(byteStr, 0, byteStr.Length);
+            }
+        }
 
     }
 }

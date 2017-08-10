@@ -6,3 +6,4 @@ c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Too
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Debug\Newtonsoft.Json.xml
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.dll
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.csprojResolveAssemblyReference.cache

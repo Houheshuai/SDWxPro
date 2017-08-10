@@ -24,7 +24,7 @@ namespace SDWxPro.Web
         {
             using (FileStream fs = new FileStream(Server.MapPath("~") + "log.txt", FileMode.Append, FileAccess.Write))
             {
-                var byteStr = System.Text.Encoding.UTF8.GetBytes(tes);
+                var byteStr = System.Text.Encoding.UTF8.GetBytes(tes+"\r\n");
                 fs.Write(byteStr, 0, byteStr.Length);
             }
         }
@@ -33,6 +33,8 @@ namespace SDWxPro.Web
         {
          
             string postStr = "";
+
+            WriteLog("hellolll");
             if (Request.HttpMethod.ToLower() == "post")
             {
                 Stream s = System.Web.HttpContext.Current.Request.InputStream;
@@ -296,10 +298,15 @@ namespace SDWxPro.Web
                             string appid = ConfigHelper.GetConfigAppSetting("WeChatAppId");
                             string wxkey = ConfigHelper.GetConfigAppSetting("WeChatAppSecret");
 
+
+                            WriteLog("sssssssssss");
                             string token = WeChatUtil.GetAccessToken(1, appid, wxkey);
+
+                            WriteLog(token);
                             //获取是否关注
                             OAuthonUserMobile OAuthUser_Model = OAuth_MobileToken.GetUser(token, openId);
 
+                            WriteLog(OAuthUser_Model.nickname);
                             //RegUser regUser = RegUserService.GetRegUserByStr(" and WXTokenId = '" + openId + "' ");
 
 
@@ -320,35 +327,17 @@ namespace SDWxPro.Web
 
                                 if (!string.IsNullOrEmpty(openId))
                                 {
-                                    SDUser newReg = SDUserService.AddSDUser(regUser);
-                                    #region 11月5号送券
-                                    //CouponQuota quota = new CouponQuota();
-                                    //quota.UserId = newReg.Id;
-                                    //quota.FromTypeId = 1;
-                                    //quota.ObjectId = 1;
-                                    //quota.Status = 1;
-                                    //quota.Amount = 2000;
-                                    //quota.Used = 0;
-                                    //quota.IsDel = 0;
-                                    //quota.AddTime = DateTime.Now;
-                                    //DateTime dtime = new DateTime(2016, 12, 5);
-                                    //quota.EndTime = dtime;
-                                    //CouponQuotaService.AddCouponQuota(quota);
-                                    #endregion 11月5号送券结束
+                                    try
+                                    {
+                                        SDUser newReg = SDUserService.AddSDUser(regUser);
+                                    }
+                                    catch (Exception ex)
+                                    {
 
-                                    //RegUser temp = new RegUser();
-                                    //string comCode = "";
-                                    //do
-                                    //{
-                                    //    comCode = HandleString.GenRndString(6);
-                                    //    temp = RegUserService.GetRegUserByStr(" and CommendCode = '" + comCode + "' ");
-                                    //    if (temp == null)
-                                    //    {
-                                    //        temp = new RegUser();
-                                    //    }
-                                    //} while (Security.ToNum(temp.Id) > 0);
-                                    //newReg.CommendCode = comCode;
-                                    //RegUserService.ModifyRegUser(newReg);
+                                        WriteLog(ex.Message);
+                                    }
+                                   
+                                    
                                 }
                             }
                             else
@@ -362,7 +351,7 @@ namespace SDWxPro.Web
                             }
                             //嗨，等你很久了。你为热爱生活而来。回归中国最初的美，带你发现中国精致生活，执匠愿一直陪伴你...
                             //执匠——翡翠源头扫货直播进行中，对翡翠感兴趣的朋友可以前往713观看大屏直播（11：00-13：00），或直接点击进入以下链接参与 http://mudu.tv/?c=activity&a=live&id=25065 
-                            resxml += "<MsgType><![CDATA[text]]></MsgType><Content><![CDATA[嗨，等你很久了。你为热爱生活而来。愿夙迪一直陪伴你...]]></Content>";
+                            resxml += "<MsgType><![CDATA[text]]></MsgType><Content><![CDATA[舍南舍北皆春水，但见群鸥日日来。花径不曾缘客扫，蓬门今始为君开，欢迎来到琳琅阁，愿琳琅一直陪伴你。]]></Content>";
                         }
                         catch (Exception e)
                         {
