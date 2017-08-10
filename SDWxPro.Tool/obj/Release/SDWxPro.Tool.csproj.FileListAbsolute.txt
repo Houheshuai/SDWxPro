@@ -1,0 +1,9 @@
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Release\SDWxPro.Tool.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Release\SDWxPro.Tool.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Release\ICSharpCode.SharpZipLib.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Release\LitJSON.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Release\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Release\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Release\SDWxPro.Tool.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Release\SDWxPro.Tool.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Release\SDWxPro.Tool.pdb

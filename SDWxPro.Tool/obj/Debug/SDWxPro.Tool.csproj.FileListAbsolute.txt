@@ -1,0 +1,8 @@
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Debug\SDWxPro.Tool.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Debug\SDWxPro.Tool.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Debug\ICSharpCode.SharpZipLib.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Debug\LitJSON.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Debug\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\bin\Debug\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.pdb

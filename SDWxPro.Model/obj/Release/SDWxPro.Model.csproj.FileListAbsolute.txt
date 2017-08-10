@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\bin\Release\SDWxPro.Model.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\bin\Release\SDWxPro.Model.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\obj\Release\SDWxPro.Model.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\obj\Release\SDWxPro.Model.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\obj\Release\SDWxPro.Model.pdb

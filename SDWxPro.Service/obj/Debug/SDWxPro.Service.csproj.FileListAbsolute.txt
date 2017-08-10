@@ -1,0 +1,12 @@
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\obj\Debug\SDWxPro.Service.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\bin\Debug\SDWxPro.Service.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\bin\Debug\SDWxPro.Service.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\bin\Debug\SDWxPro.Model.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\bin\Debug\SDWxPro.Tool.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\bin\Debug\ICSharpCode.SharpZipLib.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\bin\Debug\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\bin\Debug\SDWxPro.Model.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\bin\Debug\SDWxPro.Tool.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\bin\Debug\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\obj\Debug\SDWxPro.Service.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\obj\Debug\SDWxPro.Service.pdb

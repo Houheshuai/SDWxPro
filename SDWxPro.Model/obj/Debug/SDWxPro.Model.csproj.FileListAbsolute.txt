@@ -1,0 +1,4 @@
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\bin\Debug\SDWxPro.Model.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\bin\Debug\SDWxPro.Model.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\obj\Debug\SDWxPro.Model.dll
+c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\obj\Debug\SDWxPro.Model.pdb
