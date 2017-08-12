@@ -58,11 +58,28 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CreateCsFile.aspx" />
+    <Content Include="css\style.css" />
+    <Content Include="FilmList.aspx" />
+    <Content Include="images\model-movice.png" />
+    <Content Include="images\model.png" />
+    <Content Include="images\vr_movie_icon.png" />
     <Content Include="js\jquery.min.js" />
+    <Content Include="js\vr_movie2.min.js" />
     <Content Include="Web.config" />
     <Content Include="WeChatApi.aspx" />
+    <Content Include="WeChat\CreateMenuItem.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ashx\getFileList.ashx.cs">
+      <DependentUpon>getFileList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="FilmList.aspx.cs">
+      <DependentUpon>FilmList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FilmList.aspx.designer.cs">
+      <DependentUpon>FilmList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="OAtuth\OAuth_MobileToken.cs" />
     <Compile Include="WeChatUtil.cs" />
     <Compile Include="CreateCsFile.aspx.cs">
@@ -81,8 +98,16 @@
     <Compile Include="WeChatApi.aspx.designer.cs">
       <DependentUpon>WeChatApi.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WeChat\CreateMenuItem.aspx.cs">
+      <DependentUpon>CreateMenuItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeChat\CreateMenuItem.aspx.designer.cs">
+      <DependentUpon>CreateMenuItem.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ashx\getFileList.ashx" />
     <None Include="Properties\PublishProfiles\web.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SDFileImage.cs" />
+    <Compile Include="SDFilm.cs" />
+    <Compile Include="SDFilmCategory.cs" />
     <Compile Include="SysSetting.cs" />
     <Compile Include="WeixinReg.cs" />
     <Compile Include="SDUser.cs" />

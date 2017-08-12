@@ -8,8 +8,12 @@
     <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
     <LastUsedPlatform>Any CPU</LastUsedPlatform>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Administrator\Desktop\新建文件夹 (2)</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="ashx/getFileList.ashx">
+      <publishTime>08/10/2017 10:28:34</publishTime>
+    </File>
     <File Include="bin/ICSharpCode.SharpZipLib.dll">
       <publishTime>08/17/2016 12:18:04</publishTime>
     </File>
@@ -17,28 +21,52 @@
       <publishTime>11/03/2016 19:44:24</publishTime>
     </File>
     <File Include="bin/SDWxPro.Model.dll">
-      <publishTime>08/08/2017 20:22:56</publishTime>
+      <publishTime>08/10/2017 10:45:12</publishTime>
     </File>
     <File Include="bin/SDWxPro.Service.dll">
-      <publishTime>08/10/2017 01:55:52</publishTime>
+      <publishTime>08/10/2017 10:45:14</publishTime>
     </File>
     <File Include="bin/SDWxPro.Tool.dll">
-      <publishTime>08/10/2017 01:55:52</publishTime>
+      <publishTime>08/10/2017 01:55:54</publishTime>
     </File>
     <File Include="bin/SDWxPro.Web.dll">
-      <publishTime>08/10/2017 08:41:47</publishTime>
+      <publishTime>08/10/2017 15:25:04</publishTime>
     </File>
     <File Include="CreateCsFile.aspx">
-      <publishTime>08/08/2017 19:24:31</publishTime>
+      <publishTime>08/08/2017 19:24:32</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>08/10/2017 10:58:32</publishTime>
+    </File>
+    <File Include="FilmList.aspx">
+      <publishTime>08/10/2017 15:19:04</publishTime>
+    </File>
+    <File Include="images/model-movice.png">
+      <publishTime>08/10/2017 10:56:26</publishTime>
+    </File>
+    <File Include="images/model.png">
+      <publishTime>08/10/2017 10:56:26</publishTime>
+    </File>
+    <File Include="images/vr_movie_icon.png">
+      <publishTime>08/10/2017 10:56:28</publishTime>
     </File>
     <File Include="js/jquery.min.js">
-      <publishTime>08/08/2017 19:24:28</publishTime>
+      <publishTime>08/08/2017 19:24:30</publishTime>
+    </File>
+    <File Include="js/vr_movie2.,min.js">
+      <publishTime>08/10/2017 09:51:00</publishTime>
+    </File>
+    <File Include="js/vr_movie2.min.js">
+      <publishTime>08/10/2017 09:51:00</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/10/2017 08:41:47</publishTime>
+      <publishTime>08/10/2017 09:26:58</publishTime>
+    </File>
+    <File Include="WeChat/CreateMenuItem.aspx">
+      <publishTime>08/10/2017 09:20:58</publishTime>
     </File>
     <File Include="WeChatApi.aspx">
-      <publishTime>08/08/2017 19:28:07</publishTime>
+      <publishTime>08/08/2017 19:28:08</publishTime>
     </File>
   </ItemGroup>
 </Project>

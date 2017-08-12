@@ -64,16 +64,16 @@ namespace SDWxPro.Web
                 }
                 else
                 {
-                    //if (WxApi.TokenExpired(ss.WxTokenKey)) //access_token过期
-                    //{
-                    //    access_token = WxApi.GetToken(WxAppId, WxAppSecret);
-                    //}
-                    //else
-                    //{
-                    //    access_token = ss.WxTokenKey;
-                    //}
-                    WriteLog("pppp");
-                    access_token = WxApi.GetToken(WxAppId, WxAppSecret);
+                    if (WxApi.TokenExpired(ss.WxTokenKey)) //access_token过期
+                    {
+                        access_token = WxApi.GetToken(WxAppId, WxAppSecret);
+                    }
+                    else
+                    {
+                        access_token = ss.WxTokenKey;
+                    }
+                    //WriteLog("pppp");
+                    //access_token = WxApi.GetToken(WxAppId, WxAppSecret);
 
                     
                 }

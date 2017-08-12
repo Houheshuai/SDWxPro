@@ -2,3 +2,7 @@ c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Mod
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\bin\Debug\SDWxPro.Model.pdb
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\obj\Debug\SDWxPro.Model.dll
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Model\obj\Debug\SDWxPro.Model.pdb
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Model\bin\Debug\SDWxPro.Model.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Model\bin\Debug\SDWxPro.Model.pdb
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Model\obj\Debug\SDWxPro.Model.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Model\obj\Debug\SDWxPro.Model.pdb

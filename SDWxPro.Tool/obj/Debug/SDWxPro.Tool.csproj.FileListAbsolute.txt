@@ -7,3 +7,12 @@ c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Too
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.dll
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.pdb
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.csprojResolveAssemblyReference.cache
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Tool\bin\Debug\SDWxPro.Tool.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Tool\bin\Debug\SDWxPro.Tool.pdb
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Tool\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Tool\bin\Debug\LitJSON.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Tool\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Tool\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.csprojResolveAssemblyReference.cache
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Tool\obj\Debug\SDWxPro.Tool.pdb

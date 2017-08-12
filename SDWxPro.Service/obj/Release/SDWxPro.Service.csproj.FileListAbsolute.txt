@@ -10,3 +10,15 @@ c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Ser
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\obj\Release\SDWxPro.Service.csprojResolveAssemblyReference.cache
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\obj\Release\SDWxPro.Service.dll
 c:\users\administrator\documents\visual studio 2012\Projects\SDWxPro\SDWxPro.Service\obj\Release\SDWxPro.Service.pdb
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\bin\Release\SDWxPro.Service.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\bin\Release\SDWxPro.Service.pdb
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\bin\Release\SDWxPro.Model.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\bin\Release\SDWxPro.Tool.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\bin\Release\Newtonsoft.Json.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\bin\Release\SDWxPro.Model.pdb
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\bin\Release\SDWxPro.Tool.pdb
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\bin\Release\Newtonsoft.Json.xml
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\obj\Release\SDWxPro.Service.csprojResolveAssemblyReference.cache
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\obj\Release\SDWxPro.Service.dll
+D:\Documents\Tencent Files\1031506997\FileRecv\SDWxPro\SDWxPro.Service\obj\Release\SDWxPro.Service.pdb

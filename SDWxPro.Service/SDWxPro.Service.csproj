@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProcedureService.cs" />
+    <Compile Include="SDFileImageService.cs" />
+    <Compile Include="SDFilmCategoryService.cs" />
+    <Compile Include="SDFilmService.cs" />
     <Compile Include="SysSettingService.cs" />
     <Compile Include="DBHelper.cs" />
     <Compile Include="OperSystemService.cs" />

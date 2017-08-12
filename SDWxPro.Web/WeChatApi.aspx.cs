@@ -59,11 +59,26 @@ namespace SDWxPro.Web
                     wr.FromUserName = rootElement.SelectSingleNode("FromUserName").InnerText;
                     wr.CreateTime = rootElement.SelectSingleNode("CreateTime").InnerText;
                     wr.MsgType = MsgType.InnerText;
-                    //if (wr.MsgType == "text")
-                    //{
-                    //    wr.Content = rootElement.SelectSingleNode("Content").InnerText;
-                    //    wr.MsgId = rootElement.SelectSingleNode("MsgId").InnerText;
-                    //}
+                    if (wr.MsgType == "text")
+                    {
+                        wr.Content = rootElement.SelectSingleNode("Content").InnerText;
+                        string resxml = "<xml><ToUserName><![CDATA[" + wr.FromUserName + "]]></ToUserName><FromUserName><![CDATA[" + wr.ToUserName + "]]></FromUserName><CreateTime>" + ConvertDateTimeInt(DateTime.Now) + "</CreateTime>";
+
+                        var model= SDFilmService.GetSDFilmByStr(" and Name='" + wr.Content + "'");
+                        if (model!=null)
+                        {
+                            resxml += "<MsgType><![CDATA[text]]></MsgType><Content><![CDATA[" +"资源链接为："+ model.LinkUrl +"，密码为:"+model.Password+ "]]></Content>";    
+                        }
+                        else
+                        {
+                            resxml += "<MsgType><![CDATA[text]]></MsgType><Content><![CDATA[" + "对不起，玲琅阁暂时没有找到您要的资源，请稍后再试" + "]]></Content>"; 
+                        }
+                        resxml += "<FuncFlag>0</FuncFlag></xml>";
+                        Response.Write(resxml);
+                        Response.End();
+                       
+                        //wr.MsgId = rootElement.SelectSingleNode("MsgId").InnerText;
+                    }
                     //else if (wr.MsgType == "location")
                     //{
                     //    wr.Location_X = rootElement.SelectSingleNode("Location_X").InnerText;
@@ -95,6 +110,53 @@ namespace SDWxPro.Web
             {
                 Valid();
             }
+        }
+
+
+
+
+        /// <summary>
+        /// 回复消息(微信信息返回)
+        /// </summary>
+        /// <param name="weixinXML"></param>
+        private void ResponseTextMsg(WeixinReg wr)
+        {
+            //SysSetting ss = SysSettingService.GetSysSettingById(1);
+            //if (ss == null)
+            //{
+            //    ss = new SysSetting();
+            //}
+            string resxml = "<xml><ToUserName><![CDATA[" + wr.FromUserName + "]]></ToUserName><FromUserName><![CDATA[" + wr.ToUserName + "]]></FromUserName><CreateTime>" + ConvertDateTimeInt(DateTime.Now) + "</CreateTime>";
+        
+            try
+            {                
+                if (wr.MsgType == "event")
+                {
+                    if (wr.Wxevent == "unsubscribe")
+                    {
+                       
+                    }
+                    else if(wr.Wxevent=="")
+	                {
+
+	                }
+                    else if (wr.Wxevent == "CLICK")
+                    {
+
+                    }
+                    else if (wr.Wxevent == "subscribe")
+                    {
+                       
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            resxml += "<FuncFlag>0</FuncFlag></xml>";
+            Response.Write(resxml);
+            Response.End();
         }
 
         private void Valid()
@@ -154,6 +216,7 @@ namespace SDWxPro.Web
             //    ss = new SysSetting();
             //}
             string resxml = "<xml><ToUserName><![CDATA[" + wr.FromUserName + "]]></ToUserName><FromUserName><![CDATA[" + wr.ToUserName + "]]></FromUserName><CreateTime>" + ConvertDateTimeInt(DateTime.Now) + "</CreateTime>";
+
             try
             {
                 //if (wr.MsgType == "text")
@@ -377,6 +440,9 @@ namespace SDWxPro.Web
             return (int)(time - startTime).TotalSeconds;
         }
 
+
+
+        
 
       
 
